@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <script src="./js.js" defer></script>
+<head>
+     <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Soccer player finder</title>
+      <!-- This is the link to join the main page with the CSS page to give it style -->
+      <link rel="stylesheet" href="./style.css" />
+      <!-- This like is to customize the page with a special font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+
+</head>
+<!-- In this section it is located the navbar with the logo and navigation options-->
+<div class="Navbar">
+  <div id="Logo">
+    <a href="./index.html"><img src="./Logo.png" alt="Logo of the page with a football, soccer ball, basketball, baseball and a tennis ball" /></a>
+  </div>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./contact.html">Contact info</a></li>
+    </ul>
+</div>
+
+  <body>
+
+
+    <!-- In this section we find the instructions to find the info the user can find -->
+    <div class="container">
+      <h1 class="MainTitle">
+        <your class="secondarytitles">Find here <strong>your favorite soccer player</strong>
+      </h1>
+      <p class="Box">Write his name ⚽️🏃🏽</p>
+    
+    <!-- This is the code to display the search box -->
+      <div class="Box">
+        <label class="pe-2 fw-bold text-secondary"></label>
+        <input id="searchBox" class="form-control" type="text" value="" />
+        <button id="searchButton">Search</button>
+        <p id="error"></p>
+      </div> 
+
+      <!-- In this section is displayed the information according to the value selected by the user in the search box -->
+     <p class="secondarytitles">Name of player:</p>
+      <h5 id="Name"></h5>
+      <p class="secondarytitles">Nickname:</p>
+      <p id="Nickname"></p>
+      <p class="secondarytitles">Team:</p>
+      <p id="Team"></p>
+      <p class="secondarytitles">Nationality:</p>
+      <p id="Nationality"></p>
+      <p class="secondarytitles">Description:</p>
+      <p id="Description"></p>
+      <p class="secondarytitles">Image:</p>
+      <img src="#" id="Image"></img>
+      <p class="secondarytitles">Position:</p>
+      <p id="Position"></p>
+      <div class ="field"> 
+        <img src="./SoccerField.png" alt="Image of a soccer field where the position where the player perform is showed">
+        <span class="player"></span>
+      </div>
+
+    </div>
+
+    <input type="input" id="nameField"/>
+    <button id="save">save</button>
+    <p id="displaySavedInfo"></p>
+    <p class="Box" id="saveError"></p>
+
+
+<!-- This is the footer of both pages with the copyright session -->
+    <footer id="footer">
+      <h4>My Website &copy; 2024</h4>
+    </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<form id="myForm">
+  <input type="text" id="name" placeholder="Name">
+  <p id="error"></p>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+// JavaScript
+const error = document.getElementById('error'); // Get the error element
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form from submitting to server
+
+  var name = document.getElementById('name').value;
+
+  // Check if the name field is empty
+  if(name === "") {
+    error.innerHTML = "All fields must be filled out";
+    return false;
+  }else {
+    error.innerHTML = "";
+  } 
+
+  // Send the form data code
+
+});
+</script>
+</body>
+</html>

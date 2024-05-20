@@ -1,0 +1,227 @@
+:root {
+    --primaryColor: white;
+  
+    --complementaryColor: orange;
+  
+    --brandDarkColor: black;
+  }
+
+  #Logo img {
+    width: 70px;
+
+    }
+
+
+/* This class provides the style of most of the document */
+
+.container{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: block;
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+/* This class is to give design to our navbar */
+
+
+.Navbar{
+padding: 20px 20px 20px 20px;
+display: flex;
+justify-content:space-between;
+}
+
+.Navbar a {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+list-style: none;
+
+}
+.Navbar ul {
+display:flex;
+gap: 10px;
+list-style: none;
+    
+}
+.Navbar  li a {
+padding: 10px 10px 10px 10px;
+Color: orange; 
+&:hover, &.current {
+background-color: orange;
+color: black;
+    }
+  }
+
+
+.MainTitle {
+   color:var(--complementaryColor);
+   padding-top: 20px;
+   padding-left: 450px;
+   font-family: "Orbitron", sans-serif;
+}
+
+/* This class provides the style to the search box */
+
+.Box{
+    padding-top: 20px;
+    padding-left: 600px;
+    justify-content: center;
+    color:var(--brandDarkColor);
+    font-weight: 200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* This class provides the style to the secondary title */
+
+
+.secondarytitles{
+justify-content: right;
+color: var(--complementaryColor);
+font-weight: 200;
+font-family: "Orbitron", sans-serif;
+}
+
+/* This class provides the the style to the soccer field image  */
+
+.field {
+    position: relative;
+    display: inline-block;
+}
+
+/* This class is interactive and changes the position marked style to the soccer field image  */
+
+.player {
+    position: absolute;
+    top: 50%; /* replace with actual y position */
+    left: 50%; /* replace with actual x position */
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: 5px solid #003300;
+    border-radius: 50%;
+    transform: translate(-50%, -50%)}
+
+    .PassionImage{
+    padding-top: 30px;
+    padding-left: 500px;
+    width: 500px;
+    height: 500px;
+    }
+
+    #contact-form textarea {
+        height: 200px;
+        background-color: var(--complementaryColor);
+        opacity: 40%;
+          }
+    
+
+#contact-form input{
+background-color: var(--brandDarkColor);
+opacity: 10%;
+}
+
+    #contact-form input:focus {
+
+    margin: auto;
+    overflow: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    border: 5px solid var(--complementaryColor);
+    }
+
+    .DatesOfContact{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: auto;
+    overflow: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+        
+    .box img {
+    height: 60px;
+    margin: auto;
+    overflow: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+        
+    .FormTitles {
+    color: var(--brandDarkColor);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .input{
+    border: 5px var(--complementaryColor);
+        
+    }
+
+        #footer{
+        overflow: auto;
+        text-align: center;
+        }
+        
+        #footer h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: var(--complementaryColor);
+        color: var(--primaryColor);
+        overflow: auto;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+          }
+        
+        
+        .text-primary {
+          color: var(--complementaryColor);
+          justify-content: center;
+          padding-bottom: 6rem;
+        }
+        #contact-form label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        
+        #contact-form input, 
+        #contact-form textarea {
+          margin-right:20px;
+          width: 98%;
+          padding: 10px;
+          border: 1px var(--complementaryColor);
+        
+        }
+        #contact-form textarea {
+          height: 200px;
+        }
+        
+        #contact-form input:focus, 
+        #contact-form textarea:focus {
+        margin: auto;
+        overflow: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        outline: none;
+        border-color: var(--complementaryColor);
+        }
+
+        #contact-form p{
+        font-family: "Orbitron", sans-serif;
+        color: var(--brandDarkColor);
+        padding-left: 550px;
+
+        }
+        
+        .btn{
+        margin: 10px;
+        padding: 5px 5px 5px 5px;
+        background-color: var(--complementaryColor);
+        color: var(--primaryColor);
+        border-color: var(--primaryColor);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        
+        
+        
