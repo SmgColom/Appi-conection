@@ -94,9 +94,6 @@ font-family: "Orbitron", sans-serif;
 
 /* This class provides the the style to the soccer field image  */
 
-
-
-
 .field {
     position: relative;
     display: inline-block;
@@ -123,10 +120,7 @@ font-family: "Orbitron", sans-serif;
           }
     
 
-#contact-form input{
-background-color: var(--brandDarkColor);
-opacity: 10%;
-}
+
 
     #contact-form input:focus {
 
@@ -136,6 +130,7 @@ opacity: 10%;
     padding-right: 1rem;
     outline: none;
     border: 5px solid var(--complementaryColor);
+    color: black;
     }
 
     .DatesOfContact{
