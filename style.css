@@ -6,7 +6,7 @@
     --brandDarkColor: black;
   }
 
-  #Logo img {
+.w-70 {
     width: 70px;
 
     }
@@ -24,7 +24,7 @@ font-style: normal;
 /* This class is to give design to our navbar */
 
 
-.Navbar{
+.navbar{
 padding: 20px 20px 20px 20px;
 display: flex;
 justify-content:space-between;
@@ -42,7 +42,7 @@ gap: 10px;
 list-style: none;
     
 }
-.Navbar  li a {
+li a.nav-link{
 padding: 10px 10px 10px 10px;
 Color: orange; 
 &:hover, &.current {
@@ -55,7 +55,7 @@ color: black;
 .MainTitle {
    color:var(--complementaryColor);
    padding-top: 20px;
-   padding-left: 450px;
+   text-align: center;
    font-family: "Orbitron", sans-serif;
 }
 
@@ -63,8 +63,7 @@ color: black;
 
 .Box{
     padding-top: 20px;
-    padding-left: 600px;
-    justify-content: center;
+    text-align: center;
     color:var(--brandDarkColor);
     font-weight: 200;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,6 +80,19 @@ font-family: "Orbitron", sans-serif;
 }
 
 /* This class provides the the style to the soccer field image  */
+
+#searchButton{
+padding-top: 20px;
+
+
+}
+
+#searchButton button{
+
+background-color: var(--complementaryColor);
+color: var(--brandDarkColor);
+
+}
 
 .field {
     position: relative;
