@@ -113,23 +113,15 @@ font-family: "Orbitron", sans-serif;
     transform: translate(-50%, -50%)}
 
 
-    #contact-form textarea {
-        height: 200px;
-        background-color: var(--complementaryColor);
-        opacity: 40%;
-          }
-    
 
-
-
-    #contact-form input:focus {
+    #contact-form input{
 
     margin: auto;
     overflow: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    outline: none;
-    border: 5px solid var(--complementaryColor);
+    background-color: #EBEDEF;
+    border: 20px solid orange;
     color: black;
     }
 
