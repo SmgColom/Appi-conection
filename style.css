@@ -81,18 +81,20 @@ font-family: "Orbitron", sans-serif;
 
 /* This class provides the the style to the soccer field image  */
 
-#searchButton{
+.Button{
+display: flex;
+justify-content: center;
 padding-top: 20px;
 
 
 }
 
-#searchButton button{
+.Button button{
 
 background-color: var(--complementaryColor);
 color: var(--brandDarkColor);
-
 }
+
 
 .field {
     position: relative;
@@ -229,8 +231,7 @@ opacity: 10%;
         margin: 10px;
         padding: 5px 5px 5px 5px;
         background-color: var(--complementaryColor);
-        color: var(--primaryColor);
-        border-color: var(--primaryColor);
+        color: var(--brandDarkColor); 
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
